@@ -9,8 +9,8 @@ Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	4847627fb3709bbe166d59e872225693
 Source1:	%{name}.cron
-Source1:	%{name}.conf
-Patch0:		%{name}-what.patch
+Source2:	%{name}.conf
+#Patch0:		%{name}-what.patch
 URL:		http://dnsgraph.sourceforge.net/
 Requires(post,preun):	grep
 Requires(preun):	fileutils
@@ -68,7 +68,7 @@ fi
 %defattr(644,root,root,755)
 %doc README
 /etc/cron.d/%{name}
-/etc/httpd/%{name}.conf
+%{_sysconfdir}/httpd/%{name}.conf
 %dir %{_dnsgraphdir}
 %{_dnsgraphdir}/html
 %attr(755,root,root) %{_dnsgraphdir}/dns*.pl
