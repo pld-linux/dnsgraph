@@ -6,11 +6,10 @@ Version:	0.9
 Release:	1
 License:	GPL v2
 Group:		Applications/Networking
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/dnsgraph/%{name}-%{version}.tar.gz
 # Source0-md5:	4847627fb3709bbe166d59e872225693
 Source1:	%{name}.cron
 Source2:	%{name}.conf
-#Patch0:		%{name}-what.patch
 URL:		http://dnsgraph.sourceforge.net/
 Requires(post,preun):	grep
 Requires(preun):	fileutils
