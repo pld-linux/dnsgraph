@@ -20,9 +20,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_dnsgraphdir	%{_datadir}/%{name}
 
 %description
-Dnsgraph is a very simple dns statistics RRDtool frontend for Bind
+Dnsgraph is a very simple DNS statistics RRDtool frontend for Bind
 (named) that produces daily, weekly, monthly, and yearly graphs of
 success/failure, recursion/referral, nxrrset/nxdomain.
+
+%description -l pl
+dnsgraph to bardzo prosty frontend dla RRDtoola do statystyk DNS dla
+Binda (named) tworz±cy dzienne, tygodniowe, miesiêczne i roczne
+wykresy powodzeñ/niepowodzeñ, rekurencji/odniesieñ, nxrrset/nxdomain.
 
 %prep
 %setup -q
