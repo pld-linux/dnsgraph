@@ -1,2 +1,2 @@
 */1 * * * *	root	/usr/sbin/rndc stats
-*/10 * * * *	root	umask 022; /usr/share/dnsgraph/dnsanalise.pl -c; cd /usr/share/dnsgraph/html; /usr/share/dnsgraph/dnsreport.pl > index.html
+*/10 * * * *	root	umask 022; /usr/share/dnsgraph/dnsanalise.pl -c >/dev/null; cd /usr/share/dnsgraph/html; /usr/share/dnsgraph/dnsreport.pl >index.html; echo >/var/lib/named/named-stats.log
