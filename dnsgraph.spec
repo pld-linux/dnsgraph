@@ -3,7 +3,7 @@ Summary:	Simple BIND statistics
 Summary(pl):	Proste statystyki dla BINDa
 Name:		dnsgraph
 Version:	0.9
-Release:	1
+Release:	0.1
 License:	GPL v2
 Group:		Applications/Networking
 Source0:	http://dl.sourceforge.net/dnsgraph/%{name}-%{version}.tar.gz
