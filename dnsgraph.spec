@@ -11,6 +11,7 @@ Source0:	http://dl.sourceforge.net/dnsgraph/%{name}-%{version}.tar.gz
 Source1:	%{name}.cron
 Source2:	%{name}.conf
 URL:		http://dnsgraph.sourceforge.net/
+BuildRequires:	rpm-perlprov
 Requires(post,preun):	grep
 Requires(preun):	fileutils
 BuildArch:	noarch
