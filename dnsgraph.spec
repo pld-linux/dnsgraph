@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Simple BIND statistics
-Summary(pl):	Proste statystyki dla BINDa
+Summary(pl.UTF-8):   Proste statystyki dla BINDa
 Name:		dnsgraph
 Version:	0.9
 Release:	0.1
@@ -24,10 +24,10 @@ Dnsgraph is a very simple DNS statistics RRDtool frontend for Bind
 (named) that produces daily, weekly, monthly, and yearly graphs of
 success/failure, recursion/referral, nxrrset/nxdomain.
 
-%description -l pl
+%description -l pl.UTF-8
 dnsgraph to bardzo prosty frontend dla RRDtoola do statystyk DNS dla
-Binda (named) tworz±cy dzienne, tygodniowe, miesiêczne i roczne
-wykresy powodzeñ/niepowodzeñ, rekurencji/odniesieñ, nxrrset/nxdomain.
+Binda (named) tworzÄ…cy dzienne, tygodniowe, miesiÄ™czne i roczne
+wykresy powodzeÅ„/niepowodzeÅ„, rekurencji/odniesieÅ„, nxrrset/nxdomain.
 
 %prep
 %setup -q
