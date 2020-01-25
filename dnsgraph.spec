@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Simple BIND statistics
 Summary(pl.UTF-8):	Proste statystyki dla BINDa
 Name:		dnsgraph
